@@ -1,0 +1,2 @@
+﻿DELETE FROM UserLines
+DELETE FROM Users
