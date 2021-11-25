@@ -30,8 +30,8 @@
             </asp:Repeater>
         </table>
     </div>
-    <!--<div id="ordersCheck">
+    <div id="ordersCheck">
         <asp:CheckBox ID="showDispatched" runat="server" Checked="false" AutoPostBack="true" />
         Показать отправленные в службу поддержки запросы?
-    </div>-->
+    </div>
 </asp:Content>

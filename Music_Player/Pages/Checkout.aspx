@@ -9,12 +9,12 @@
             <h2>Скачать</h2>
             Пожалуйста, введите свои данные!
 
-        <!--<div id="errors" data-valmsg-summary="true">
+        <div id="errors" data-valmsg-summary="true">
             <ul>
                 <li style="display:none"></li>
             </ul>
-            <!--<asp:ValidationSummary ID="ValidationSummary1" runat="server" />
-        </div>-->
+            <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
+        </div>
 
             <h3>Пользователь</h3>
             <div>
