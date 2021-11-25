@@ -17,7 +17,7 @@
                     <ItemTemplate>
                         <tr>
                             <td><%# Item.Song.Name %></td>
-                            <td><<!--%# Item.Song.Singer%-->></td>
+                            <td><%# Item.Song.Singer%></td>
                             <td><%# Item.Song.Duration%></td>
                             <td>
                             <button type="submit" class="actionButtons" name="remove"
