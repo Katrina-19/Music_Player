@@ -98,6 +98,7 @@
     <Content Include="Pages\ListView.aspx" />
     <Content Include="Pages\Listing.aspx" />
     <Content Include="Pages\Admin\Admin.Master" />
+    <None Include="Properties\PublishProfiles\IISProfile.pubxml" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Scripts\jquery-3.6.0.js" />
