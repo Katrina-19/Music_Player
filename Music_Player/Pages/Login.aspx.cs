@@ -12,8 +12,7 @@ namespace Music_Player.Pages
             {
                 string name = Request.Form["name"];
                 string password = Request.Form["password"];
-                if (name == null && password == null
-                       && FormsAuthentication.Authenticate(name, password))
+                if (name != null && password != null && FormsAuthentication.Authenticate(name, password))
                 {
                     FormsAuthentication.SetAuthCookie(name, false);
                     Response.Redirect(Request["ReturnUrl"] ?? "/");
